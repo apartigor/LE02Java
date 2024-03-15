@@ -2,24 +2,25 @@ import java.util.Scanner;
 
 public class Exercicio05 {
     public static void executar() {
-       Scanner ler = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
-       System.out.println("Digite 5 números:");
-       double[] numeros = new double[5];
-       for (int i = 0; i < 5; i++) {
-           numeros[i] = ler.nextDouble();
-       }
+        System.out.println("Digite 5 números:");
+        int[] num = new int[5];
+        for (int i = 0; i < 5; i++) {
+            num[i] = ler.nextInt();
+        }
 
-       System.out.println("Digite um número n:");
-       double n = ler.nextDouble();
+        System.out.println("Digite um número N:");
+        int n = ler.nextInt();
 
-       System.out.println("Os índices dos elementos inferiores a n são:");
-       for (int i = 0; i < 5; i++) {
-           if (numeros[i] < n) {
-               System.out.println(i + " ");
-           }
-       }
+        int cont = 0;
+        for (int i = 0; i < 5; i++) {
+            if (num[i] == n) {
+                cont++;
+            }
+        }
+        System.out.printf("O número %d aparece %d vez(es) dentro do vetor\n", n, cont);
 
-       ler.close();
-   }
+        ler.close();
+    }
 }
