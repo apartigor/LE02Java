@@ -23,18 +23,15 @@ public class Exercicio01 {
         System.out.printf("Média: %.2f\n", media);
 
         for (i = 0; i < 5; i++) {
-            if (vetor[i] > media){
+            if (vetor[i] > media) {
                 System.out.printf("%.2f é maior que a média (%.2f)\n", vetor[i], media);
-            }
-            else if (vetor[i] < media){
+            } else if (vetor[i] < media) {
                 System.out.printf("%.2f é menor que a média (%.2f)\n", vetor[i], media);
-                
-            }
-            else {
-                    System.out.printf("%.2f é igual a média (%.2f)\n", vetor[i], media);
+
+            } else {
+                System.out.printf("%.2f é igual a média (%.2f)\n", vetor[i], media);
             }
         }
-
         ler.close();
     }
 }
