@@ -64,10 +64,10 @@ public class Programa {
             case 13:
                 Exercicio13.executar();
                 break;
-            /*case 14:
+            case 14:
                 Exercicio14.executar();
                 break;
-            case 15:
+            /*case 15:
                 Exercicio15.executar();
                 break;*/
             default:
