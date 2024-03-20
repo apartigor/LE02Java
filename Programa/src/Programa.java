@@ -67,9 +67,9 @@ public class Programa {
             case 14:
                 Exercicio14.executar();
                 break;
-            /*case 15:
+            case 15:
                 Exercicio15.executar();
-                break;*/
+                break;
             default:
                 System.out.println("Opção inválida!");
         }
