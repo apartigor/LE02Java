@@ -49,10 +49,10 @@ public class Programa {
             case 8:
                 Exercicio08.executar();
                 break;
-            /*case 9:
+            case 9:
                 Exercicio09.executar();
                 break;
-            case 10:
+            /*case 10:
                 Exercicio10.executar();
                 break;
             case 11:
