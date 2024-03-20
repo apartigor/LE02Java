@@ -46,10 +46,10 @@ public class Programa {
             case 7:
                 Exercicio07.executar();
                 break;
-            /*case 8:
+            case 8:
                 Exercicio08.executar();
                 break;
-            case 9:
+            /*case 9:
                 Exercicio09.executar();
                 break;
             case 10:
